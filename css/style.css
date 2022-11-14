@@ -20,7 +20,7 @@ body {
 }
 
 
-#parrafo1, #adios, img, #parrafo2, #parrafo3, #parrafo4, #text, #opacity2 {
+#parrafo1, #adios, img, #parrafo2, #text {
   position: relative;
   z-index: 50;
 }
@@ -124,30 +124,5 @@ width: 50%;
 
 }
 
-
-#opacity2 {
-  filter:opacity(90%);
-  width: 20%;
-  height: 20%;
-}
-
-/* #fantasma:hover {
-filter:blur(10px);
-}
-
-#text2{
-  color:rgb(255, 255, 255);
-  font-family:'Comic Sans MS';
-  filter:opacity(90%);
-  font-size: 20px;
-  width: 50%;
-  font-style:bold;
-  margin-left: 5%;
-  z-index: 55;
-
-}
-
-
-span:hover + #fantasma { /*aparece algo en hover */
 {display: block;
 }
