@@ -167,10 +167,12 @@ justify-content: center;
 @media screen and (max-width: 640px) {
   .video-container {
     flex-direction: column;
-    width: auto;
+    width: 100%;
+    padding: 0;
   }
   .video-wrapper, .video-wrapper.small-gap {
-    margin: 10px auto;
+    margin: 0 auto;
+    padding: 0;
     flex: none;
     width: 100%;
   }
@@ -178,6 +180,12 @@ justify-content: center;
 
 @media screen and (max-width: 640px) {
   body {
+    font-size: 18px;
+      }
+  #parrafo2 {
     font-size: 16px;
+  }
+  #text{
+    font-size: 18px;
   }
 }
