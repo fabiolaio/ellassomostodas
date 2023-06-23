@@ -70,15 +70,64 @@ solid - dashed - dotted
 <br>
 <br>
 
+<style>
+  .video-container {
+    display: flex;
+    justify-content: space-between;
+    width: 640px;
+    margin: auto;
+  }
+
+  .video-wrapper {
+    margin: 20px;
+  }
+
+  .video-wrapper.small-gap {
+    margin: 5px;
+    flex: 1;
+  }
+
+  @media screen and (max-width: 640px) {
+    .video-container {
+      flex-direction: column;
+      width: auto;
+    }
+    .video-wrapper, .video-wrapper.small-gap {
+      margin: 10px auto;
+      flex: none;
+      width: 100%;
+    }
+  }
+</style>
 
 <div class="video-wrapper">
-<iframe title="vimeo-player" src="https://player.vimeo.com/video/770801602?h=d2deeaf13b" width="640" height="320" frameborder="0" allowfullscreen></iframe>
-
+  <iframe src="https://player.vimeo.com/video/838870873?h=85555fe4c9" width="640" height="320" frameborder="0" allowfullscreen></iframe>
 </div>
 
 <div align="center">
-   <p> <img id="opacity" src="cross2.gif" /> </p>
+  <p> <img id="opacity" src="cross2.gif" /> </p>
 </div>
+
+<div class="video-container">
+  <div class="video-wrapper small-gap">
+    <iframe src="https://player.vimeo.com/video/838886366?h=af1c9579e3" width="300" height="300" frameborder="0" allowfullscreen></iframe>
+  </div>
+  <div class="video-wrapper small-gap">
+    <iframe src="https://player.vimeo.com/video/838880245?h=11b6aba9cd" width="300" height="300" frameborder="0" allowfullscreen></iframe>
+  </div>
+</div>
+
+<div align="center">
+  <p> <img id="opacity" src="cross2.gif" /> </p>
+</div>
+
+<div class="video-wrapper">
+  <iframe src="https://player.vimeo.com/video/770801602?h=d2deeaf13b" width="640" height="320" frameborder="0" allowfullscreen></iframe>
+</div>
+
+
+
+
 
 <br>
 <br>
