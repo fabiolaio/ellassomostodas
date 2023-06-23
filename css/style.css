@@ -39,7 +39,7 @@ div.background-image {
   top: 0;
   width: 100%;
   height: 100%;
-  background-image: url(./css/glitter.jpg);
+  background-image: url(../css/glitter.jpg);
   background-repeat: round;
   background-size: 100%;
   cursor: url(../cursor.png), auto;
@@ -47,7 +47,7 @@ div.background-image {
 
 @media screen and (max-width: 640px) {
   div.background-image {
-     background-image: url(./css/glitter-vertical.jpg); /* Replace this with your mobile image path */
+     background-image: url(../css/glitter-vertical.jpg); /* Replace this with your mobile image path */
   }
 }
 
